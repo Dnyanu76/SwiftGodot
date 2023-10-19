@@ -51,7 +51,7 @@ components:
 * Your Swift code: this is where you bring the magic
 * A `.gdextension` file that describes where to find the requires
   Swift library assets
-* Some Swift registation code and bootstrap code
+* Some Swift registration code and bootstrap code
 * Importing your extension into your project
 
 ## Your Swift Code
@@ -185,7 +185,7 @@ android.release.arm64 = "res://bin/MyFirstGame"
 
 In the example above, the extension always expects the 
 platform specific payload to be called "MyFirstGame", 
-regarless of the platform.   If you want to distribute
+regardless of the platform.   If you want to distribute
 your extension to other users and have a single payload,
 you will need to manually set different names for those.
 
